@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             taskList.removeChild(taskItem);
         };
 
-        // Append the remove button to the task item and the task item to the list
+        // Append the remove button to the task item, then append the task item to the task list
         taskItem.appendChild(removeButton);
         taskList.appendChild(taskItem);
 
